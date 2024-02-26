@@ -23,21 +23,21 @@ Untuk membuka Discover, cukup masuk ke main menu > Application > System > Softwa
 
 # Discovery Interface
 
-![](../assets/week2-2.png)
+![](assets/week2-2.png)
 
-![](../assets/week2-3.png)
+![](assets/week2-3.png)
 
-![](../assets/week2-4.png)
+![](assets/week2-4.png)
 
 ---
 
 # Discovery Interface
 
-![](../assets/week2-5.png)
+![](assets/week2-5.png)
 
-![](../assets/week2-6.png)
+![](assets/week2-6.png)
 
-![](../assets/week2-7.png)
+![](assets/week2-7.png)
 
 ---
 
@@ -51,25 +51,25 @@ Ini memungkinkan untuk melihat total dari packages yang dipilih, baik terinstall
 
 # Synaptic Interface
 
-![](../assets/week2-8.png)
+![](assets/week2-8.png)
 
-![](../assets/week2-11.png)
-
----
-
-# Synaptic Interface
-
-![](../assets/week2-10.png)
-
-![](../assets/week2-12.png)
+![](assets/week2-11.png)
 
 ---
 
 # Synaptic Interface
 
-![](../assets/week2-13.png)
+![](assets/week2-10.png)
 
-![](../assets/week2-9.png)
+![](assets/week2-12.png)
+
+---
+
+# Synaptic Interface
+
+![](assets/week2-13.png)
+
+![](assets/week2-9.png)
 
 ---
 
@@ -81,11 +81,11 @@ Kita bisa menggunakan terminal dengan `df -h` atau Disk Usage Analytics, applica
 
 ---
 
-![](../assets/week2-15.png)
+![](assets/week2-15.png)
 
 ---
 
-![](../assets/week2-16.png)
+![](assets/week2-16.png)
 
 ---
 
