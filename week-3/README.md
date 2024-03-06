@@ -9,16 +9,16 @@
 
 - Klik menu Bridge dan buat bridge baru pada kolom Bridge
 
-![](../assets/week3-1.png)
+![](asset/week3-1.png)
 
 - Masih di menu Bridge, pilih kolom Ports dan buat port ether 2 - 10
 
-![](../assets/week3-2.png)
+![](asset/week3-2.png)
 
 - Pilih menu IP dan klik menu Addresses untuk membuat address list baru. Buat address baru untuk interface bridge1 dan ether1.
 
-![](../assets/week3-3.png)
-![](../assets/week3-4.png)
+![](asset/week3-3.png)
+![](asset/week3-4.png)
 
 - Pilih menu IP dan klik menu DHCP Server. Lalu klik DHCP Setup dan masukkan dengan ketentuan berikut :
 
@@ -30,21 +30,21 @@
 
 
 
-![](../assets/week3-5.png)
+![](asset/week3-5.png)
 
-![](../assets/week3-6.png)
+![](asset/week3-6.png)
 
-![](../assets/week3-7.png)
+![](asset/week3-7.png)
 
 - Pilih menu Routing dan klik menu Firewall. Pilih kolom NAT dan kita tambahkan NAT baru dengan :
 
 1. Src. Address = 192.168.3.0/24
 2. Dst. Address = 0.0.0.0/0
 
-![](../assets/week3-8.png)
+![](asset/week3-8.png)
 
 - Klik menu Action dan pilih masquerade dan klik OK untuk menyimpan.
 
-![](../assets/week3-9.png)
+![](asset/week3-9.png)
 
 
