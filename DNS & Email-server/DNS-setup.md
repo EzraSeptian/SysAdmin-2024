@@ -49,14 +49,14 @@ apakah tersedia pada direktori tersebut menggunakan ls -al
                     file "/var/lib/bind/db.kelompok3.local.inv";
             };
 
-4. Setelah mengubah 3 file di atas, lakukan cd /var/lib/bind dan lakukan sudo nano db.kelompok3.local dan sudo nano db.kelompok3.local, berikut konfigurasi
+4. Setelah mengubah 3 file di atas, lakukan cd /var/lib/bind dan lakukan sudo nano db.kelompok3.local dan sudo nano db.kelompok3.local.inv, berikut konfigurasi
    2 file tersebut:
 
    **db.kelompok3.local:**
 
            $TTL    3600
         @       IN      SOA     ns.kelompok3.local. root.kelompok3.local. ( // sesuaikan dengan nama DNS yang dibuat
-                           2024031901           ; Serial // 
+                           2024031901           ; Serial // sesuaikan dengan tanggal dibuatnya DNS
                                  3600           ; Refresh [1h]
                                   600           ; Retry   [10m]
                                 86400           ; Expire  [1d]
@@ -69,5 +69,30 @@ apakah tersedia pada direktori tersebut menggunakan ls -al
         
         www     IN      CNAME   ns
         mail    IN      CNAME   ns
-   
+
+   **db.kelompok3.local.inv**
+
+           $TTL    3600
+        @       IN      SOA     ns.kelompok3.local. root.kelompok3.local. (
+                           2024031902           ; Serial // sesuaikan dengan tanggal dibuatnya DNS
+                                 3600           ; Refresh [1h]
+                                  600           ; Retry   [10m]
+                                86400           ; Expire  [1d]
+                                  600 )         ; Negative Cache TTL [1h]
+        ;
+        @       IN      NS      ns.kelompok3.local.
+        
+        10       IN      PTR     ns.kelompok3.local.
+
+5. Setelah melakukan konfigurasi, lakukan sudo nano named-checkzone kelompok3.local db.kelompok3.local dan sudo named-checkzone 136.168.192.inaddr-arpa db.kelompok3.local.inv untuk memastikan tidak ada sintaks yang salah pada pembuatan DNS
+
+![gambar](asset/checkzone.PNG)
+![gambar](asset/checkzone1.PNG)
+
+6. Setelah itu cek apakah domain sudah terbentuk atau belum menggunkaan nslookup ns
+
+   ![gambar](asset/nslookup.PNG)
+      
+
+
    
