@@ -86,8 +86,8 @@ apakah tersedia pada direktori tersebut menggunakan ls -al
 
 5. Setelah melakukan konfigurasi, lakukan sudo nano named-checkzone kelompok3.local db.kelompok3.local dan sudo named-checkzone 136.168.192.inaddr-arpa db.kelompok3.local.inv untuk memastikan tidak ada sintaks yang salah pada pembuatan DNS
 
-![gambar](asset/checkzone.PNG)
-![gambar](asset/checkzone2.PNG)
+    ![gambar](asset/checkzone.PNG)
+    ![gambar](asset/checkzone2.PNG)
 
 6. Setelah itu lakukan sudo nano /etc/resolv.conf dengan konfigurasi sebagai berikut:
    
@@ -98,7 +98,7 @@ apakah tersedia pada direktori tersebut menggunakan ls -al
 
 8. Setelah itu cek apakah domain sudah terbentuk atau belum menggunkaan nslookup ns
 
-![gambar](asset/nslookup.PNG)
+    ![gambar](asset/nslookup.PNG)
       
 
 
