@@ -89,9 +89,16 @@ apakah tersedia pada direktori tersebut menggunakan ls -al
 ![gambar](asset/checkzone.PNG)
 ![gambar](asset/checkzone2.PNG)
 
-6. Setelah itu cek apakah domain sudah terbentuk atau belum menggunkaan nslookup ns
+6. Setelah itu lakukan sudo nano /etc/resolv.conf dengan konfigurasi sebagai berikut:
+   
+            search kelompok3.local
+            nameserver 192.168.3.10 //IP DNS
+            nameserver 10.10.10.1
+            nameserver 202.9.85.3 //IP Forwarder
 
-   ![gambar](asset/nslookup.PNG)
+8. Setelah itu cek apakah domain sudah terbentuk atau belum menggunkaan nslookup ns
+
+![gambar](asset/nslookup.PNG)
       
 
 
