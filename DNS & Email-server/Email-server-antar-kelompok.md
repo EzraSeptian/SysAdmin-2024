@@ -24,5 +24,5 @@
       list (memunculkan list email yang ada di debian)
       retr nomerlist (ganti nomerlist sesuai dengan mail yang ingin diperiksa)
       quit (jika dirasa sudah cukup)
-      ![gambar](asset/received-telent.jpg)
+      ![gambar](asset/received-telnet.jpg)
    
