@@ -17,12 +17,12 @@
 3. Kemudian cek mail di device penerima dengan 2 cara melalui evolution atau menggunakan terminal:
    1. Buka melalui evolution, pastikan akun yang terlogin sesuai dengan yang menerima email kemudian cek pada inbox jika berhasil menerima mail
       maka akan muncul seperti ini:
-      ![gambar](asset/received-evolution.png)
+      ![gambar](asset/received-evolution.jpg)
    2. Kemudian jika kita cek pada terminal menggunakan perintah telnet kelompok3.local 110 ketikkan
       user username (sesuaikan dengan username di debian)
       pass password (sesuaikan dengan password di debian)
       list (memunculkan list email yang ada di debian)
       retr nomerlist (ganti nomerlist sesuai dengan mail yang ingin diperiksa)
       quit (jika dirasa sudah cukup)
-      ![gambar](asset/received-telent.png)
+      ![gambar](asset/received-telent.jpg)
    
