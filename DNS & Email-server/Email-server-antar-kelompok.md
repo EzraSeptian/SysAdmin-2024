@@ -22,6 +22,12 @@
 3. Kemudian cek mail di device penerima dengan 2 cara melalui evolution atau menggunakan terminal:
    1. Buka melalui evolution, pastikan akun yang terlogin sesuai dengan yang menerima email kemudian cek pada inbox jika berhasil menerima mail
       maka akan muncul seperti ini:
+      
+      Menerima mail dari kelompok3.local:
+
+      ![gambar](asset/sent-telnet.jpg)
+
+      Menerima mail dari kelompok2.local:
 
       ![gambar](asset/received-evolution.jpg)
 
